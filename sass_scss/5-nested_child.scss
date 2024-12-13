@@ -1,9 +1,9 @@
-// Definition of text colors for elements in 'body' and for the 'red' class
+// Definition of text colors in the elements of 'body' and its direct children
 
 body {
     color: #3D3D3D;
-  
-    .red {
+    
+    > .red {
       color: #FF0000;
     }
   }
